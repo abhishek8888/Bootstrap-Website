@@ -1,0 +1,47 @@
+body{
+    font-family: 'Arvo', serif;
+}
+
+.height{
+    min-height: 100vh;
+}
+
+.title-underline{
+    height: 10px;
+    width: 200px;
+    margin: 0 auto;
+    /* background-color: blue!important; */
+}
+
+.height-80{
+    min-height: 80vh;
+}
+
+.about-picture{
+    background: url(../images/about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-img-top{
+    height: 15vw;
+    object-fit: cover;
+}
+
+#filler,#progress{
+    /* default linear-gradient is top to bottom. however, u can change it to right as shown in the next line */
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.9)) ,url(../images/filler.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-fluid{
+    height: 15vw;
+    width: 100%;
+    object-fit: cover;
+}
+
